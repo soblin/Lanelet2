@@ -17,6 +17,7 @@ target_include_directories(${PROJECT_NAME}
   ${BOOST_INCLUDE_DIRS}
   ${EIGEN3_INCLUDE_DIR}
 )
+target_link_libraries(${PROJECT_NAME} ${BOOST_LIBRARIES})
 
 # Add executables in "tools"
 # glob_folders(TOOL_DIRECTORIES "${CMAKE_CURRENT_SOURCE_DIR}/tools")
