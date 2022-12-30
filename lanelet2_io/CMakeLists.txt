@@ -19,9 +19,3 @@ target_include_directories(${PROJECT_NAME}
 )
 
 ament_auto_package()
-
-# TODO(Mamoru Sobue)
-# if (CATKIN_ENABLE_TESTING)
-#    mrt_add_tests(test)
-#    mrt_add_nosetests(test)
-# endif()
